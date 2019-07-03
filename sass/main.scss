@@ -1,7 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext);
-@import 'sass/abstracts/mixins';
-@import 'sass/abstracts/variables';
-@import 'sass/pages/home';
-@import 'sass/reset/reset';
-@import 'sass/layout/header';
-@import 'sass/layout/main';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+@import 'pages/home';
+@import 'reset/reset';
+@import 'layout/header';
+@import 'layout/main';
