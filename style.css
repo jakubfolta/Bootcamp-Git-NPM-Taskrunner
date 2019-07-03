@@ -59,8 +59,8 @@ table {
   text-align: center; }
 
 .song-box {
-  margin: 10px 20px;
-  padding: 5px;
+  margin: 20px 30px;
+  padding: 10px 40px;
   line-height: 30px;
   font-size: 2em;
   background-color: #cebbbb; }
@@ -69,6 +69,6 @@ table {
       font-size: 1em;
       line-height: 20px; } }
   .song-box .song-text {
-    margin: 10px 0; }
+    margin: 20px 0; }
 
 /*# sourceMappingURL=style.css.map */
