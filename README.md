@@ -1,7 +1,6 @@
 # Learning Git
 
 ## Check Here ==> https://jakubfolta.github.io/Learning-Git/
-https://jakubfolta.github.io/Learning-Git/
 
 ## Technologies
 * HTML5, CSS3, Sass
