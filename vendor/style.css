@@ -1,34 +1,103 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext);
-.page { font-family: "Montserrat", sans-serif; margin: 0 auto; }
+.page {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 
-body { line-height: 1; }
+body {
+  line-height: 1;
+}
 
-ol, ul { list-style: none; }
+ol, ul {
+  list-style: none;
+}
 
-blockquote, q { quotes: none; }
+blockquote, q {
+  quotes: none;
+}
 
-blockquote:before, blockquote:after { content: ''; content: none; }
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
 
-q:before, q:after { content: ''; content: none; }
+q:before, q:after {
+  content: '';
+  content: none;
+}
 
-table { border-collapse: collapse; border-spacing: 0; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-.head { font-size: 3em; max-width: 1920px; width: 100%; background-color: #615153; text-align: center; padding: 10px 0; }
+.head {
+  font-size: 3em;
+  max-width: 1920px;
+  width: 100%;
+  background-color: #615153;
+  text-align: center;
+  padding: 10px 0;
+}
 
-@media (max-width: 768px) { .head { font-size: 2em; } }
+@media (max-width: 768px) {
+  .head {
+    font-size: 2em;
+  }
+}
 
-.head h1, .head h2 { margin: 5px 0; }
+.head h1, .head h2 {
+  margin: 5px 0;
+}
 
-.head h1 { font-size: 2em; font-weight: 700; }
+.head h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
 
-.container { max-width: 1920px; width: 100%; margin: 0 auto; color: #e0001a; text-align: center; }
+.tesasafd {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-.song-box { margin: 20px 30px; padding: 10px 40px; line-height: 30px; font-size: 2em; background-color: #cebbbb; }
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  color: #e0001a;
+  text-align: center;
+}
 
-@media (max-width: 768px) { .song-box { font-size: 1em; line-height: 20px; } }
+.song-box {
+  margin: 20px 30px;
+  padding: 10px 40px;
+  line-height: 30px;
+  font-size: 2em;
+  background-color: #cebbbb;
+}
 
-.song-box .song-text { margin: 20px 0; }
+@media (max-width: 768px) {
+  .song-box {
+    font-size: 1em;
+    line-height: 20px;
+  }
+}
+
+.song-box .song-text {
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
