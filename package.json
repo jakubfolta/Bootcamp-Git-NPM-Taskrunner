@@ -11,6 +11,7 @@
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore && echo sass/.sass-cache >> .gitignore",
     "build": "npm-run-all build:*",
+    "build:clean": "node_modules/.bin/rimraf css/*",
     "build:sass": "node-sass --output-style compact -o vendor sass",
     "build:autoprefixer": "autoprefixer-cli vendor/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o vendor sass",
